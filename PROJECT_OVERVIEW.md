@@ -2,7 +2,7 @@
 
 ## 1. Wizja projektu
 
-Celem projektu Privacy Gateway jest stworzenie platformy internetowej, która pozwoli użytkownikom korzystać z wybranych zasobów internetu za pośrednictwem serwera pośredniczącego, przy jednoczesnym ograniczeniu ilości udostępnianych danych osobowych.
+Celem projektu Privacy Gateway - PriG jest stworzenie platformy internetowej, która pozwoli użytkownikom korzystać z wybranych zasobów internetu za pośrednictwem serwera pośredniczącego, przy jednoczesnym ograniczeniu ilości udostępnianych danych osobowych.
 
 Platforma ma łączyć funkcje prywatnego dostępu do stron internetowych z narzędziami ułatwiającymi zarządzanie danymi kont, pocztą elektroniczną oraz weryfikacją telefoniczną.
 
