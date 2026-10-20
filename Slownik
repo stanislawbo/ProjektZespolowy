@@ -1,0 +1,29 @@
+# Słownik pojęć — Privacy Gateway
+
+## Podstawowe pojęcia
+
+- **Privacy Gateway (PriG)** — platforma pośrednicząca w dostępie do wybranych zasobów internetu, zaprojektowana z myślą o prywatności użytkowników.
+- **Proxy** — serwer przekazujący żądania pomiędzy użytkownikiem a serwisem docelowym.
+- **Sesja** — tymczasowy kontekst korzystania z platformy, obejmujący powiązane dane i ustawienia.
+- **Serwis docelowy** — zewnętrzna strona internetowa, do której użytkownik uzyskuje dostęp za pośrednictwem PriG.
+- **Anonimizacja** — ograniczanie możliwości powiązania aktywności z konkretną osobą. Samo proxy nie gwarantuje pełnej anonimizacji.
+- **Prywatność** — kontrolowanie zakresu danych ujawnianych platformie i serwisom zewnętrznym.
+
+## Dane i konta
+
+- **Dane tymczasowe** — informacje przechowywane tylko przez określony czas, np. dane sesji lub wiadomości w tymczasowej skrzynce.
+- **Dane uwierzytelniające** — informacje służące do potwierdzania tożsamości lub dostępu, np. hasła i tokeny.
+- **Alias e-mail** — dodatkowy adres pocztowy, który może przekazywać wiadomości do innej skrzynki.
+- **Tymczasowa skrzynka e-mail** — skrzynka dostępna przez ograniczony czas, przeznaczona do odbierania wiadomości.
+- **Weryfikacja SMS** — potwierdzanie dostępu lub rejestracji za pomocą kodu otrzymanego w wiadomości tekstowej.
+- **Numer współdzielony** — numer udostępniany wielu użytkownikom w różnych sesjach lub okresach.
+- **Numer na wyłączność** — numer przypisany jednemu użytkownikowi na określony czas.
+
+## Bezpieczeństwo i infrastruktura
+
+- **CAPTCHA** — mechanizm pomagający odróżnić użytkownika od automatycznego programu.
+- **SSRF** — podatność umożliwiająca wykorzystanie serwera do wysyłania niepożądanych żądań do innych zasobów.
+- **Retencja danych** — zasady określające, jak długo dane są przechowywane.
+- **MVP (Minimum Viable Product)** — minimalna wersja produktu zawierająca podstawowe funkcje potrzebne do przetestowania założeń.
+- **Model zagrożeń** — opis potencjalnych zagrożeń, chronionych danych i sposobów ograniczania ryzyka.
+- **Izolacja sesji** — oddzielenie danych i uprawnień poszczególnych sesji, aby nie mogły wzajemnie uzyskiwać do nich dostępu.
