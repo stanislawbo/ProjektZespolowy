@@ -14,10 +14,8 @@
 ## Bezpieczeństwo i prywatność
 
 - Dane różnych użytkowników i sesji muszą być od siebie oddzielone.
-- Połączenie z platformą musi być zabezpieczone przez HTTPS.
 - Hasła i inne poufne dane nie mogą być zapisywane w zwykłych logach.
 - Dane tymczasowe muszą być usuwane zgodnie z ustalonymi zasadami.
-- Proxy musi być zabezpieczone przed wykorzystaniem go do dostępu do wewnętrznych zasobów sieciowych.
 - Użytkownik powinien wiedzieć, jakie dane są przechowywane i komu mogą być udostępniane.
 
 ## Pierwsza wersja projektu (MVP)
