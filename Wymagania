@@ -1,0 +1,41 @@
+# Wymagania — Privacy Gateway (PriG)
+
+## Funkcje systemu
+
+- Użytkownik może wpisać adres strony, którą chce otworzyć.
+- System sprawdza adres i blokuje niedozwolone strony oraz niebezpieczne adresy wewnętrzne.
+- System umożliwia korzystanie z obsługiwanych stron przez proxy.
+- Użytkownik może generować losowe identyfikatory i silne hasła.
+- System może obsługiwać skrzynki e-mail do odbierania wiadomości i kodów weryfikacyjnych.
+- Użytkownik może zarządzać sesją i jej danymi tymczasowymi.
+- CAPTCHA i inne wymagane zabezpieczenia użytkownik obsługuje samodzielnie.
+- W przyszłości system może zostać rozszerzony o obsługę numerów telefonicznych i SMS-ów.
+
+## Bezpieczeństwo i prywatność
+
+- Dane różnych użytkowników i sesji muszą być od siebie oddzielone.
+- Połączenie z platformą musi być zabezpieczone przez HTTPS.
+- Hasła i inne poufne dane nie mogą być zapisywane w zwykłych logach.
+- Dane tymczasowe muszą być usuwane zgodnie z ustalonymi zasadami.
+- Proxy musi być zabezpieczone przed wykorzystaniem go do dostępu do wewnętrznych zasobów sieciowych.
+- Użytkownik powinien wiedzieć, jakie dane są przechowywane i komu mogą być udostępniane.
+
+## Pierwsza wersja projektu (MVP)
+
+Na początku projekt powinien obejmować:
+
+- prosty interfejs strony głównej;
+- sprawdzanie adresów URL;
+- podstawową obsługę proxy;
+- zarządzanie sesją;
+- podstawowe zabezpieczenia i usuwanie danych tymczasowych.
+
+Poczta elektroniczna, numery telefoniczne i bardziej zaawansowane funkcje mogą zostać dodane później.
+
+## Kiedy uznamy, że działa?
+
+- System blokuje niedozwolone adresy.
+- Jedna sesja nie ma dostępu do danych innej sesji.
+- Dane tymczasowe są usuwane zgodnie z ustalonymi zasadami.
+- Poufne informacje nie trafiają do logów.
+- Użytkownik wie, które strony są obsługiwane, a które nie.
