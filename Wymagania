@@ -26,16 +26,7 @@ Na początku projekt powinien obejmować:
 
 - prosty interfejs strony głównej;
 - sprawdzanie adresów URL;
-- podstawową obsługę proxy;
 - zarządzanie sesją;
 - podstawowe zabezpieczenia i usuwanie danych tymczasowych.
 
 Poczta elektroniczna, numery telefoniczne i bardziej zaawansowane funkcje mogą zostać dodane później.
-
-## Kiedy uznamy, że działa?
-
-- System blokuje niedozwolone adresy.
-- Jedna sesja nie ma dostępu do danych innej sesji.
-- Dane tymczasowe są usuwane zgodnie z ustalonymi zasadami.
-- Poufne informacje nie trafiają do logów.
-- Użytkownik wie, które strony są obsługiwane, a które nie.
